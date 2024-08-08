@@ -1,17 +1,17 @@
 {
-  "name": "@your-repository-name/hello",
+  "name": "@proyecto-viviana/ui",
   "version": "0.0.1",
-  "description": "Example hello world package in the your-repository-name repository.",
+  "description": "Solidjs Library component for Proyecto Viviana",
   "license": "MIT",
-  "author": "your-author-name",
+  "author": "EmoPorEmilio",
   "contributors": [],
-  "homepage": "https://github.com/your-nickname/your-repository-name#readme",
+  "homepage": "https://github.com/emoporemilio/proyecto-viviana#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-nickname/your-repository-name.git"
+    "url": "git+https://github.com/emoporemilio/proyecto-viviana.git"
   },
   "bugs": {
-    "url": "https://github.com/your-nickname/your-repository-name/issues"
+    "url": "https://github.com/emoporemilio/proyecto-viviana/issues"
   },
   "keywords": [
     "solid"
