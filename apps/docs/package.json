@@ -1,5 +1,5 @@
 {
-  "name": "your-repository-name-playground-sandbox",
+  "name": "@proyecto-viviana/docs",
   "version": "0.0.0",
   "description": "",
   "private": true,
@@ -14,7 +14,7 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "@your-repository-name/hello": "^0.0.1",
+    "@proyecto-viviana/ui": "^0.0.1",
     "solid-js": "^1.6.9"
   }
 }
