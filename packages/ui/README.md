@@ -12,8 +12,6 @@ pnpm add @proyecto-viviana/ui
 
 ```ts
 import { } from '@proyecto-viviana/ui'
-
-const [hello, setHello] = createHello()
 ```
 
 ## Changelog
