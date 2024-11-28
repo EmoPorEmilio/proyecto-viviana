@@ -6,10 +6,14 @@ function getAbsolutePath(value) {
 
 const config = {
   stories: ["../stories/*.stories.tsx", "../stories/**/*.stories.tsx"],
+
   addons: [
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
+    "@chromatic-com/storybook",
+    getAbsolutePath("@storybook/addon-a11y")
   ],
+
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
@@ -36,6 +40,10 @@ const config = {
   docs: {
     autodocs: true,
   },
+
+  typescript: {
+    reactDocgen: "react-docgen-typescript"
+  }
 };
 
 export default config;
